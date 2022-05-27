@@ -1,0 +1,114 @@
+/*ESTILIZANDO O MENU */
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    color: #ffff;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li{
+    display: inline;
+    margin-left: 2rem;
+}
+
+.menu li a{
+    padding: 2rem 0;
+    color: #ffff;
+    border-radius: 1rem;
+}
+
+.menu li a:hover{
+    background-color: brown;
+}
+
+.cabecalho > div a{
+    padding: 2rem 0;
+    border-radius: 1rem;
+    color: #ffff;
+}
+
+.cabecalho > div a:hover{
+    background-color:chocolate;
+}
+
+.box-pai{
+    display: flex;
+    height: 900px;
+}
+
+.box{
+    width: 10%;
+    height: 10%;
+    min-width: 200px;
+    padding: 2%;    
+    text-align: center;
+}
+
+.box-lancamento{
+    margin-left: 25%;
+}
+
+.rodape{
+    padding: 50px 50px 50px 50px;
+    background-image: cross-fade(0.5 black);
+    font-size: 30px;
+}
+
+body{
+    background-color: rgb(141, 24, 24);
+    background-image: linear-gradient(#ff0000 20%,#000000 90%);
+    font-family: Verdana, sans-serif;
+    color: #ffff;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-style: bold;
+}  
+
+.container{
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-block: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px 5px 150px 5px;
+    position: relative;
+}
+
+.legenda-ryan{
+    text-align: start;
+    margin-bottom: 60%;
+    margin-top: 55%;
+    position: relative;
+}
+
+.legenda-teenager{
+    text-align: start;
+    margin-bottom: 60%;
+    margin-top: 55%;
+    margin-left: 14%;
+    position: relative;
+}
+
+.legenda-lancamento{
+    text-align: start;
+    margin-bottom: 60%;
+    margin-top: 55%;
+    margin-right: 15%;
+    position: relative;
+}
+
+.nomes{
+    font-weight: 600;
+    font-style: bold;
+    color: #ffff00;
+    text-shadow: -1px 0 black, 0 1px black;
+}
